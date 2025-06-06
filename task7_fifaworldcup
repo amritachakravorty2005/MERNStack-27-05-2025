@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup 2014 News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        
+        .header-banner {
+            background-color: #90EE90;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        
+        .news-content {
+            font-size: 12px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .destinations {
+            margin-top: 30px;
+        }
+        
+        .destinations h2 {
+            color: #333;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .destinations ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .destinations li {
+            margin-bottom: 5px;
+        }
+        
+        .destinations a {
+            color: #0066cc;
+            text-decoration: underline;
+            font-size: 12px;
+        }
+        
+        .destinations a:hover {
+            color: #004499;
+        }
+        
+        .social-icons {
+            margin-top: 30px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .social-icon {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            text-align: center;
+            line-height: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        
+        .rss-icon {
+            background-color: #ff6600;
+        }
+        
+        .facebook-icon {
+            background-color: #3b5998;
+        }
+        
+        .twitter-icon {
+            background-color: #1da1f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-banner">
+        FIFA WORLD CUP BRASIL 2014
+    </div>
+    
+    <div class="container">
+        <h1>FIFA World Cup 2014 News</h1>
+        
+        <div class="news-content">
+            <p>The biggest spectacle in the history of the FIFA World Cup tournament - and indeed in the history of international football - was recorded on 13 April 2001, when Argentina beat Australia Santos 31-0.</p>
+            
+            <p>The legendary match also brought global stardom for striker Pelégerson, whose 13 goal haul set a new world record, which stands to this day, for an individual player in a single international match.</p>
+            
+            <p>The victory started American Santos dominant, as keeping the first 48 minutes relatively from their 5-3 win defeat of an excellent tournament. Next Stop: Pow - selected across the world.</p>
+        </div>
+        
+        <div class="destinations">
+            <h2>Destinations</h2>
+            <ul>
+                <li>• <a href="#">BELO HORIZONTE - STADIUM - Estádio Mineirão</a></li>
+                <li>• <a href="#">BRASILIA - STADIUM - Estádio Nacional</a></li>
+                <li>• <a href="#">CUIABA - STADIUM - Arena Pantanal</a></li>
+                <li>• <a href="#">CURITIBA - STADIUM - Arena da Baixada</a></li>
+                <li>• <a href="#">FORTALEZA - STADIUM - Castelão</a></li>
+                <li>• <a href="#">MANAUS - STADIUM - Arena Amazônia</a></li>
+                <li>• <a href="#">NATAL - STADIUM - Estádio das Dunas</a></li>
+                <li>• <a href="#">PORTO ALEGRE - STADIUM - Estádio Beira-Rio</a></li>
+                <li>• <a href="#">RECIFE - STADIUM - Arena Pernambuco</a></li>
+                <li>• <a href="#">RIO DE JANEIRO - STADIUM - Maracanã - Estádio Jornalista Mário Filho</a></li>
+                <li>• <a href="#">SALVADOR - STADIUM - Arena Fonte Nova</a></li>
+                <li>• <a href="#">SAO PAULO - STADIUM - Arena de São Paulo</a></li>
+            </ul>
+        </div>
+        
+        <div class="social-icons">
+            <div class="social-icon rss-icon" title="RSS Feed">RSS</div>
+            <div class="social-icon facebook-icon" title="Facebook">f</div>
+            <div class="social-icon twitter-icon" title="Twitter">t</div>
+        </div>
+    </div>
+</body>
+</html>
