@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Vertical Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .vertical-navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 150px;
+            background-color: lightblue;
+            border: 2px solid #333;
+        }
+        
+        .vertical-navbar li a {
+            display: block;
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 1px solid #bbb;
+        }
+        
+        .vertical-navbar li:last-child a {
+            border-bottom: none;
+        }
+        
+        .vertical-navbar li a.active {
+            background-color: #ff9933;
+            color: white;
+        }
+        
+        .vertical-navbar li a:hover:not(.active) {
+            background-color: #87ceeb;
+        }
+    </style>
+</head>
+<body>
+    <ul class="vertical-navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul>
+</body>
+</html>
